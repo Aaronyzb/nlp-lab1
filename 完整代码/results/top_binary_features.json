@@ -1,0 +1,44 @@
+{
+  "business": [
+    "company",
+    "market",
+    "mr",
+    "companies",
+    "its",
+    "company's",
+    "flight",
+    "or",
+    "industry",
+    "european",
+    "business",
+    "airline"
+  ],
+  "politics": [
+    "mr",
+    "washington",
+    "republican",
+    "state",
+    "law",
+    "obama",
+    "officials",
+    "senator",
+    "senate",
+    "military",
+    "ms",
+    "republicans"
+  ],
+  "sports": [
+    "players",
+    "league",
+    "game",
+    "football",
+    "season",
+    "team",
+    "player",
+    "sports",
+    "games",
+    "play",
+    "played",
+    "n"
+  ]
+}

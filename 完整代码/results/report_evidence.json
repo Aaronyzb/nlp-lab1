@@ -1,0 +1,63 @@
+{
+  "metric_checks": [
+    {
+      "model": "bow_binary",
+      "test_rows": 1152,
+      "metrics_match": true,
+      "errors": 12
+    },
+    {
+      "model": "bow_frequency",
+      "test_rows": 1152,
+      "metrics_match": true,
+      "errors": 12
+    },
+    {
+      "model": "glove",
+      "test_rows": 1152,
+      "metrics_match": true,
+      "errors": 16
+    },
+    {
+      "model": "w2v_ag",
+      "test_rows": 1152,
+      "metrics_match": true,
+      "errors": 20
+    },
+    {
+      "model": "w2v_nyt",
+      "test_rows": 1152,
+      "metrics_match": true,
+      "errors": 14
+    },
+    {
+      "model": "bert",
+      "test_rows": 1152,
+      "metrics_match": true,
+      "errors": 19
+    }
+  ],
+  "tests_return_code": 0,
+  "evidence_pages": {
+    "metric_check": {
+      "source": "logs/report_metric_check.log",
+      "title": "逐篇测试预测的重新核算"
+    },
+    "test_check": {
+      "source": "logs/report_test_check.log",
+      "title": "本次正确性检查输出"
+    },
+    "bert_log": {
+      "source": "logs/train_bert.log",
+      "title": "保存的三轮训练日志节选"
+    },
+    "metric_code": {
+      "source": "src/common.py:45-50",
+      "title": "评价函数源代码"
+    },
+    "pooling_code": {
+      "source": "src/train_classical.py:77-87",
+      "title": "平均词向量源代码"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+# Tested isolated Python 3.12 environment for Gensim on Windows.
+numpy==1.26.4
+scipy==1.12.0
+gensim==4.3.3
+pandas==2.2.3
+scikit-learn==1.6.1
+joblib==1.6.0
+requests==2.34.2

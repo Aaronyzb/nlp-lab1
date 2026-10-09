@@ -1,0 +1,13 @@
+SAVED TEST PREDICTIONS - METRIC CHECK
+Test samples: 1152
+
+Model                    Accuracy   Macro-F1   Errors
+Binary BoW               0.989583   0.977855       12
+Word Frequency           0.989583   0.975208       12
+GloVe 100d               0.986111   0.966792       16
+Word2Vec External        0.982639   0.959650       20
+Word2Vec Target          0.987847   0.968546       14
+BERT                     0.983507   0.965023       19
+
+PASS: all six metrics match the saved results.
+PASS: all models use identical test row IDs.

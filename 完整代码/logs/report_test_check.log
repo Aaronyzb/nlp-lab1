@@ -1,0 +1,12 @@
+test_average_repetitions_oov_and_empty (test_correctness.CorrectnessTests.test_average_repetitions_oov_and_empty) ... ok
+test_bert_and_embedding_assignment_constraints (test_correctness.CorrectnessTests.test_bert_and_embedding_assignment_constraints) ... ok
+test_bow_counts_binary_and_unseen (test_correctness.CorrectnessTests.test_bow_counts_binary_and_unseen) ... ok
+test_macro_f1_includes_all_classes (test_correctness.CorrectnessTests.test_macro_f1_includes_all_classes) ... ok
+test_saved_predictions_reproduce_metrics_and_split (test_correctness.CorrectnessTests.test_saved_predictions_reproduce_metrics_and_split) ... ok
+test_split_is_disjoint_complete_reproducible (test_correctness.CorrectnessTests.test_split_is_disjoint_complete_reproducible) ... ok
+test_tokenizer (test_correctness.CorrectnessTests.test_tokenizer) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 1.638s
+
+OK

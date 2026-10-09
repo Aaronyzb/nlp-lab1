@@ -1,0 +1,294 @@
+{
+  "代码运行说明.md": {
+    "bytes": 5620,
+    "sha256": "d32dacae2b226e2025d1dc4b237f545016a5c81c14ac74c3c924a45da57d8571"
+  },
+  "实验报告.pdf": {
+    "bytes": 1209629,
+    "sha256": "75e29bdb47a3ac21b53820dc45de3f82a342bb7abb00d72333cc1ea8913903be"
+  },
+  "完整代码/.gitignore": {
+    "bytes": 94,
+    "sha256": "8d229f6e6e67f044927d8372e287d52441b32b1fba0f9780bf831b728b77d6e5"
+  },
+  "完整代码/README.md": {
+    "bytes": 6570,
+    "sha256": "4aa7d65861b795257afd72c87076f6c27e7db93895e36a7aaf0aa61f63811a4c"
+  },
+  "完整代码/requirements-classical.txt": {
+    "bytes": 172,
+    "sha256": "6cc6c85550580b5d538db361a3cd7856ff18865b973776b8711abbf42f289155"
+  },
+  "完整代码/requirements.txt": {
+    "bytes": 221,
+    "sha256": "9989129728a70af987d5f97652fbd2b2835ed09b7e921e4a2de28cdeca213cf0"
+  },
+  "完整代码/run_experiments.py": {
+    "bytes": 1878,
+    "sha256": "91e46f7404173009ad9af52da7298acb36381d6b5b951b973931e749c7abc543"
+  },
+  "完整代码/HW-1/ag.csv": {
+    "bytes": 21756712,
+    "sha256": "06fa7de72a2f1cb41513c35260964518d029ff63ae631a807d3b189fbf246c4b"
+  },
+  "完整代码/HW-1/nyt.csv": {
+    "bytes": 43401361,
+    "sha256": "de12ebe7f41316b798896bf975da840e2998f82393328d375fe5456a14e9eb2d"
+  },
+  "完整代码/logs/analysis.log": {
+    "bytes": 1043,
+    "sha256": "3996fc4800799ebea609ba01b488757b67f83f22632602d295c0c5a8699b3919"
+  },
+  "完整代码/logs/data_audit.log": {
+    "bytes": 1318,
+    "sha256": "fc07ac0c965bdc78d3d2e1993aac1a12f5432a0c8041f445c83457acf85bbee2"
+  },
+  "完整代码/logs/download_bert.log": {
+    "bytes": 71,
+    "sha256": "2a632634b86d64d5dafe95325a906e7804405ed9f47ed31c96863a5eab4d623b"
+  },
+  "完整代码/logs/download_cuda.log": {
+    "bytes": 831,
+    "sha256": "40dbf58e776ea64cd7ada56f50cf51ef00e9bf3204817f2778b1bbcd9545ea51"
+  },
+  "完整代码/logs/download_glove.log": {
+    "bytes": 487,
+    "sha256": "d8f1f7cb2a85728a8619557c6bb5bd34270dd9bbe56a6f3ee1f2db5e7fe27f7a"
+  },
+  "完整代码/logs/predict_smoke.log": {
+    "bytes": 258,
+    "sha256": "b356727ed11bd79660b419ce478b1d80ee3cc8b1438d67e15e03565ca013d74f"
+  },
+  "完整代码/logs/report.log": {
+    "bytes": 134,
+    "sha256": "f6c25be58502cd4b86416db7e89e3e34876c79aba43c3d17ccab1f3dc94bc7eb"
+  },
+  "完整代码/logs/report_charts.log": {
+    "bytes": 29,
+    "sha256": "b37f5d6093c211c1e1909e03db5b370ca2a4cf687342c3a67019d33d8a34a591"
+  },
+  "完整代码/logs/report_evidence.log": {
+    "bytes": 555,
+    "sha256": "a05a485a4ce0334a91136f4abf84eefc2256ee74619be54881904ccd6f9a1368"
+  },
+  "完整代码/logs/report_metric_check.log": {
+    "bytes": 540,
+    "sha256": "597c841ded5db7c23e89c4e06b24be7a04828f8efcca6e3ba4c386fe0b24e69c"
+  },
+  "完整代码/logs/report_test_check.log": {
+    "bytes": 943,
+    "sha256": "53179bbd4fcccea97f6e327b34edd99ff6b055efa948e5ae9c0d9e3f69b40339"
+  },
+  "完整代码/logs/tests.log": {
+    "bytes": 943,
+    "sha256": "d188d8fce9596efcccab25a81a6c3c72f501cfcc7ecdf35162be172d0d942416"
+  },
+  "完整代码/logs/train_bert.log": {
+    "bytes": 4649,
+    "sha256": "d800ab36097a5d53d580b414cd2be30e62f62e55a0b1a523302f4e408fb17355"
+  },
+  "完整代码/logs/train_bow.log": {
+    "bytes": 2293,
+    "sha256": "1a79e49f89315327af958c8b7f6332aaa49f6ad630b8309407b6a28660fe6512"
+  },
+  "完整代码/logs/train_glove.log": {
+    "bytes": 1162,
+    "sha256": "cf4ddafc47a76608c09536f4c1729a4997cd11f6fb2f5a55cf36ad553e57dbba"
+  },
+  "完整代码/logs/train_w2v_ag.log": {
+    "bytes": 30012,
+    "sha256": "6f762080f05bbdf8639603b922e83bd4986e21cd2bdf113335e975e7ee04a524"
+  },
+  "完整代码/logs/train_w2v_nyt.log": {
+    "bytes": 46321,
+    "sha256": "cdeb7ce367e018ee7257e5f16b7d80f5046cc046121e561cc7704fb2b76820a7"
+  },
+  "完整代码/results/bert.json": {
+    "bytes": 4864,
+    "sha256": "0d68f8966b73ed72bcf5db9f7deebe50c873c543ef102248cf2354ee01f8ea70"
+  },
+  "完整代码/results/bert_history.json": {
+    "bytes": 822,
+    "sha256": "fe22874bdc44f8e209b488400f418bddb3c9f3840225cdbf02cf7ab00798ed34"
+  },
+  "完整代码/results/bert_predictions.csv": {
+    "bytes": 24273,
+    "sha256": "020bab48117090fd46edf0e5a57561f06d63a0a7d83013871bd3e19d4084a921"
+  },
+  "完整代码/results/bow_binary.json": {
+    "bytes": 6485,
+    "sha256": "fc1626c03bd9eb8a98bf1aa8385959a3479a9101b367ce3b12344c688bfffb6d"
+  },
+  "完整代码/results/bow_binary_predictions.csv": {
+    "bytes": 24267,
+    "sha256": "cca9c74ff77a81f617b76ffdaa93e016bdfae7a1cdd5025ef65b79ba397ac957"
+  },
+  "完整代码/results/bow_frequency.json": {
+    "bytes": 6541,
+    "sha256": "d11627fe772ca32c9b3dec7f6d21f171c242e3f40dd4075e9a0420d0dffb1399"
+  },
+  "完整代码/results/bow_frequency_predictions.csv": {
+    "bytes": 24265,
+    "sha256": "146ce0030c379cc8f354d5071b9ee5e191c148dff5673caf0c849e1236670070"
+  },
+  "完整代码/results/data_audit.json": {
+    "bytes": 1260,
+    "sha256": "e41f46948c9eca792af82c8ebfa2518b471f0c874b3de68429b8d9319b71b0b2"
+  },
+  "完整代码/results/error_analysis.csv": {
+    "bytes": 68642,
+    "sha256": "8aa3c7eef841e34fd181754a69dc491828595eaedf5ebd39d928a86f970ce36c"
+  },
+  "完整代码/results/glove.json": {
+    "bytes": 7225,
+    "sha256": "dd87c6b9e0e3ccd98bc561e303858133b0a094fce75104bd76dfe17eca4ada5e"
+  },
+  "完整代码/results/glove_predictions.csv": {
+    "bytes": 24263,
+    "sha256": "5639c3872a3af5d877172ae90e7b1d95385c490be5a4a96854c4a17ad9aa3a47"
+  },
+  "完整代码/results/report_evidence.json": {
+    "bytes": 1402,
+    "sha256": "9cafcb72065d28eac6239b68595fa9d33f8aaf9226bca6c9b0397a90298aee13"
+  },
+  "完整代码/results/resource_provenance.json": {
+    "bytes": 1311,
+    "sha256": "2a03e584fe28c9e0a7285e0f22aa4982642b08e4f6be87f65d96e054a33f0e2e"
+  },
+  "完整代码/results/split_indices.json": {
+    "bytes": 127182,
+    "sha256": "73808524617f1336570aeaef1fa0a400a59e4249e2f7fe9db4153f513c9bff14"
+  },
+  "完整代码/results/statistical_analysis.json": {
+    "bytes": 2913,
+    "sha256": "10a81df12247769f8abdda88b37643e1e2222967d96af6be14041031f27f0212"
+  },
+  "完整代码/results/submission_report.json": {
+    "bytes": 232,
+    "sha256": "14b632004fc4c46980471772e4156c012bf36a7ae17764e47ab87fb25f3f96ba"
+  },
+  "完整代码/results/summary.csv": {
+    "bytes": 1041,
+    "sha256": "c88396b6d476bcab79420b33aa4910ec4f2dde0937772c20291cbaf70b1ff973"
+  },
+  "完整代码/results/top_binary_features.json": {
+    "bytes": 607,
+    "sha256": "34a6daace0dd960fbfba69d6d70c948a3631a959ed8afe35d85eb860dcb03f5a"
+  },
+  "完整代码/results/verification.json": {
+    "bytes": 972,
+    "sha256": "038b45bd00841d0b6df10fb17666b589caac139b374283b4c0e0855ec61a4a3e"
+  },
+  "完整代码/results/w2v_ag.json": {
+    "bytes": 7455,
+    "sha256": "52b7c80b6d253449a380c6912fcca08fb6572d868e7ebb29289d58d7be6a3bb6"
+  },
+  "完整代码/results/w2v_ag_predictions.csv": {
+    "bytes": 24263,
+    "sha256": "9f2760383e3a88a8274a62a7dd17adcdb7694297958a96207f40b1d4b650614c"
+  },
+  "完整代码/results/w2v_nyt.json": {
+    "bytes": 7473,
+    "sha256": "46014156fd3ebccb0022fe034f3375212bc2265236e3a5acfd780162eb0005e9"
+  },
+  "完整代码/results/w2v_nyt_predictions.csv": {
+    "bytes": 24261,
+    "sha256": "9088d70e63b0447e84cb279b0fc97ae1a4e1e6815e0e09d0a0b5a240e78d5343"
+  },
+  "完整代码/src/analyze_results.py": {
+    "bytes": 3791,
+    "sha256": "c149a3d53013b91fb6e0fe533fc5fddc01aea9cb78067afa6a548f6f0f267d0b"
+  },
+  "完整代码/src/build_report.py": {
+    "bytes": 7704,
+    "sha256": "dfb305f452da175622ccec2329cf6c4e5a41b38c73376e9a042c946cef1c61c3"
+  },
+  "完整代码/src/common.py": {
+    "bytes": 4624,
+    "sha256": "2365346cf846e9ba3c7004eb2a9f73e1b1e951a5fcedf044de6b6e5249ece8bc"
+  },
+  "完整代码/src/download_resources.py": {
+    "bytes": 4295,
+    "sha256": "1f6862f25afa73990c4691ceccf4b61566e1121623a0a8c919d102da016942ae"
+  },
+  "完整代码/src/package_submission.py": {
+    "bytes": 4909,
+    "sha256": "cdb1bd8fc2ef13a768186dfad9eced0694089efdd8eb7dd29e0bdfe905e7223b"
+  },
+  "完整代码/src/predict.py": {
+    "bytes": 1914,
+    "sha256": "9e5737d6c15274a19f91a05dba2757ff2bec5cc696b3c88689edf4cc6bff8faa"
+  },
+  "完整代码/src/report_charts.py": {
+    "bytes": 6716,
+    "sha256": "802acbb869821d6fee35944af6f15b65090a6e5a8e12a3bff35d7f73975ac29d"
+  },
+  "完整代码/src/report_details.py": {
+    "bytes": 29600,
+    "sha256": "1f27dd56a2442bc82c59ff1cca845fa40432b878dfc19de83a5e644ebf771559"
+  },
+  "完整代码/src/report_evidence.py": {
+    "bytes": 4866,
+    "sha256": "afac15a0ef98841e1f49e6985daf7ffcc1552aae9342973cb12f952120e53eaf"
+  },
+  "完整代码/src/report_log_images.py": {
+    "bytes": 1917,
+    "sha256": "c05f8b36890782b9f19ba0cbd0ea2ea76d2b6dfc96367cb7491d95e8897c1270"
+  },
+  "完整代码/src/train_bert.py": {
+    "bytes": 8039,
+    "sha256": "cf0eb49b43b34d9bbace369f3ba9b6c696f9edfa780899ea798ec81f23330697"
+  },
+  "完整代码/src/train_classical.py": {
+    "bytes": 7911,
+    "sha256": "1bbe85dba093281393e85c91c9948763c96a6a5c19645b34bc004ab24c56ad85"
+  },
+  "完整代码/tests/test_correctness.py": {
+    "bytes": 4347,
+    "sha256": "32e60610bb75b7f2f2fe94740011cfce442600305122855f0c4508feab2bc4f8"
+  },
+  "完整代码/report/assets/all_confusions.png": {
+    "bytes": 117657,
+    "sha256": "8547e386ef95d5ffe493fed3c0c8bba9ffe5cc8095eadb588f0332013ce4173a"
+  },
+  "完整代码/report/assets/class_distribution.png": {
+    "bytes": 40341,
+    "sha256": "e9f47fd3ca338f22c4af2c803f0c46c2c387adddbcc26e97c0c34d7b9c6fd5f2"
+  },
+  "完整代码/report/assets/class_f1.png": {
+    "bytes": 98119,
+    "sha256": "b36d1266eb0306b6df707b5ae6401a52fc689a8298da11a7b4c5f2cdddd01bab"
+  },
+  "完整代码/report/assets/corpus_sizes.png": {
+    "bytes": 59262,
+    "sha256": "f69efc0df197eeb88a2ef44329461f35734e5e3885825c60f63b777084947022"
+  },
+  "完整代码/report/assets/embedding_coverage.png": {
+    "bytes": 55456,
+    "sha256": "cc87e712e78661b6f6f02118d67f06a959c18e1d75efb300ac4be467f6de3992"
+  },
+  "完整代码/report/assets/learning_curve.png": {
+    "bytes": 96134,
+    "sha256": "e0a2a17fea179f9fc85113660cd940213ff0b7bd1c11cf71fd7d637f918fd5a0"
+  },
+  "完整代码/report/assets/metric_output_excerpt.png": {
+    "bytes": 60706,
+    "sha256": "c7c64a881649339511fff1af45ed7cdabe7516e476572f9b10760c1d16da4b44"
+  },
+  "完整代码/report/assets/model_scores.png": {
+    "bytes": 90495,
+    "sha256": "527778ae7e2f14153bd77500cc7ff17975ea050540e038195cc9c95ff34783bc"
+  },
+  "完整代码/report/assets/score_intervals.png": {
+    "bytes": 56222,
+    "sha256": "d8c6a1f7c8ae8fd7691e7e5492ed61cdfbbe8eb08df15b81649edd1c9d473c77"
+  },
+  "完整代码/report/assets/training_log_excerpt.png": {
+    "bytes": 37706,
+    "sha256": "6269659a5a906fe7ae844fe6dffe3cc3739a35f55d977351bf2dc6de3937d5bc"
+  },
+  "完整代码/report/assets/validation_search.png": {
+    "bytes": 138919,
+    "sha256": "e2442acc8776ff47fd4adf643a5dde4d2ae9a379f782319012aae783fa0c9859"
+  }
+}

@@ -1,0 +1,18 @@
+{'C': 0.01, 'class_weight': None, 'validation_accuracy': 0.9791666666666666, 'validation_macro_f1': 0.9565551895040801, 'n_iter': [47]}
+{'C': 0.1, 'class_weight': None, 'validation_accuracy': 0.9852430555555556, 'validation_macro_f1': 0.9684217266437821, 'n_iter': [52]}
+{'C': 1.0, 'class_weight': None, 'validation_accuracy': 0.984375, 'validation_macro_f1': 0.9663938665762931, 'n_iter': [29]}
+{'C': 10.0, 'class_weight': None, 'validation_accuracy': 0.9756944444444444, 'validation_macro_f1': 0.9505607618050708, 'n_iter': [19]}
+{'C': 0.01, 'class_weight': 'balanced', 'validation_accuracy': 0.9748263888888888, 'validation_macro_f1': 0.9512025300454047, 'n_iter': [43]}
+{'C': 0.1, 'class_weight': 'balanced', 'validation_accuracy': 0.9826388888888888, 'validation_macro_f1': 0.9640517625672288, 'n_iter': [45]}
+{'C': 1.0, 'class_weight': 'balanced', 'validation_accuracy': 0.9835069444444444, 'validation_macro_f1': 0.9643666080508186, 'n_iter': [16]}
+{'C': 10.0, 'class_weight': 'balanced', 'validation_accuracy': 0.9791666666666666, 'validation_macro_f1': 0.9567549356512365, 'n_iter': [16]}
+FINISHED bow_binary: 0.989583, 0.977855
+{'C': 0.01, 'class_weight': None, 'validation_accuracy': 0.9826388888888888, 'validation_macro_f1': 0.9648599196694464, 'n_iter': [177]}
+{'C': 0.1, 'class_weight': None, 'validation_accuracy': 0.9817708333333334, 'validation_macro_f1': 0.9612644904542115, 'n_iter': [217]}
+{'C': 1.0, 'class_weight': None, 'validation_accuracy': 0.984375, 'validation_macro_f1': 0.9649389018175145, 'n_iter': [109]}
+{'C': 10.0, 'class_weight': None, 'validation_accuracy': 0.984375, 'validation_macro_f1': 0.9657728067628225, 'n_iter': [68]}
+{'C': 0.01, 'class_weight': 'balanced', 'validation_accuracy': 0.9809027777777778, 'validation_macro_f1': 0.9612060709981951, 'n_iter': [220]}
+{'C': 0.1, 'class_weight': 'balanced', 'validation_accuracy': 0.9826388888888888, 'validation_macro_f1': 0.9635402339267304, 'n_iter': [215]}
+{'C': 1.0, 'class_weight': 'balanced', 'validation_accuracy': 0.9817708333333334, 'validation_macro_f1': 0.9606754343097769, 'n_iter': [139]}
+{'C': 10.0, 'class_weight': 'balanced', 'validation_accuracy': 0.9852430555555556, 'validation_macro_f1': 0.9669978951060386, 'n_iter': [65]}
+FINISHED bow_frequency: 0.989583, 0.975208

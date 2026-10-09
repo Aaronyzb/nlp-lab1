@@ -1,0 +1,295 @@
+./.venv-classical/Scripts/python.exe : 2026-10-08 16:07:25,682 collecting all words and their counts
+所在位置 行:2 字符: 89
++ ... HREADS='4'; ./.venv-classical/Scripts/python.exe -u src/train_classic ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-10-08 16:0...nd their counts:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-10-08 16:07:25,682 PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2026-10-08 16:07:25,728 PROGRESS: at sentence #10000, processed 403148 words, keeping 21552 word types
+2026-10-08 16:07:25,777 PROGRESS: at sentence #20000, processed 801528 words, keeping 29995 word types
+2026-10-08 16:07:25,829 PROGRESS: at sentence #30000, processed 1201031 words, keeping 35431 word types
+2026-10-08 16:07:25,881 PROGRESS: at sentence #40000, processed 1599484 words, keeping 39927 word types
+2026-10-08 16:07:25,935 PROGRESS: at sentence #50000, processed 1998676 words, keeping 44071 word types
+2026-10-08 16:07:25,984 PROGRESS: at sentence #60000, processed 2393357 words, keeping 47541 word types
+2026-10-08 16:07:26,035 PROGRESS: at sentence #70000, processed 2784462 words, keeping 50864 word types
+2026-10-08 16:07:26,089 PROGRESS: at sentence #80000, processed 3173779 words, keeping 53940 word types
+2026-10-08 16:07:26,140 collected 56526 word types from a corpus of 3565072 raw words and 90000 sentences
+2026-10-08 16:07:26,141 Creating a fresh vocabulary
+2026-10-08 16:07:26,274 Word2Vec lifecycle event {'msg': 'effective_min_count=2 retains 38140 unique words (67.47% of o
+riginal 56526, drops 18386)', 'datetime': '2026-10-08T16:07:26.210759', 'gensim': '4.3.3', 'python': '3.12.10 (tags/v3.
+12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]', 'platform': 'Windows-11-10.0.26200-SP0', 'event': '
+prepare_vocab'}
+2026-10-08 16:07:26,274 Word2Vec lifecycle event {'msg': 'effective_min_count=2 leaves 3546686 word corpus (99.48% of o
+riginal 3565072, drops 18386)', 'datetime': '2026-10-08T16:07:26.274535', 'gensim': '4.3.3', 'python': '3.12.10 (tags/v
+3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]', 'platform': 'Windows-11-10.0.26200-SP0', 'event':
+ 'prepare_vocab'}
+2026-10-08 16:07:26,382 deleting the raw counts dictionary of 56526 items
+2026-10-08 16:07:26,383 sample=0.001 downsamples 31 most-common words
+2026-10-08 16:07:26,383 Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 2968461.54008188 word corpus (8
+3.7%% of prior 3546686)', 'datetime': '2026-10-08T16:07:26.383293', 'gensim': '4.3.3', 'python': '3.12.10 (tags/v3.12.1
+0:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]', 'platform': 'Windows-11-10.0.26200-SP0', 'event': 'prep
+are_vocab'}
+2026-10-08 16:07:26,572 estimated required memory for 38140 words and 100 dimensions: 49582000 bytes
+2026-10-08 16:07:26,572 resetting layer weights
+2026-10-08 16:07:26,584 Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2026-10-08T16:07:2
+6.584880', 'gensim': '4.3.3', 'python': '3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD
+64)]', 'platform': 'Windows-11-10.0.26200-SP0', 'event': 'build_vocab'}
+2026-10-08 16:07:26,584 Word2Vec lifecycle event {'msg': 'training model with 1 workers on 38140 vocabulary and 100 fea
+tures, using sg=1 hs=0 sample=0.001 negative=5 window=5 shrink_windows=True', 'datetime': '2026-10-08T16:07:26.584880',
+ 'gensim': '4.3.3', 'python': '3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]', 'pl
+atform': 'Windows-11-10.0.26200-SP0', 'event': 'train'}
+2026-10-08 16:07:27,604 EPOCH 0 - PROGRESS: at 6.56% examples, 195224 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:07:28,610 EPOCH 0 - PROGRESS: at 13.50% examples, 200448 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:07:29,637 EPOCH 0 - PROGRESS: at 20.74% examples, 203752 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:07:30,638 EPOCH 0 - PROGRESS: at 27.68% examples, 204636 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:07:31,658 EPOCH 0 - PROGRESS: at 34.64% examples, 204491 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:07:32,670 EPOCH 0 - PROGRESS: at 41.58% examples, 204576 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:07:33,688 EPOCH 0 - PROGRESS: at 48.25% examples, 203333 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:07:34,702 EPOCH 0 - PROGRESS: at 55.18% examples, 203595 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:07:35,703 EPOCH 0 - PROGRESS: at 61.91% examples, 203150 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:07:36,731 EPOCH 0 - PROGRESS: at 69.29% examples, 203813 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:07:37,750 EPOCH 0 - PROGRESS: at 76.35% examples, 203812 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:07:38,777 EPOCH 0 - PROGRESS: at 83.75% examples, 204373 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:07:39,784 EPOCH 0 - PROGRESS: at 90.87% examples, 204506 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:07:40,831 EPOCH 0 - PROGRESS: at 97.96% examples, 204034 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:07:41,115 EPOCH 0: training on 3565072 raw words (2966891 effective words) took 14.5s, 204203 effective w
+ords/s
+2026-10-08 16:07:42,144 EPOCH 1 - PROGRESS: at 7.13% examples, 209584 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:07:43,179 EPOCH 1 - PROGRESS: at 13.50% examples, 196888 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:07:44,208 EPOCH 1 - PROGRESS: at 19.35% examples, 187816 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:07:45,243 EPOCH 1 - PROGRESS: at 25.19% examples, 183045 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:07:46,338 EPOCH 1 - PROGRESS: at 31.29% examples, 179738 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:07:47,422 EPOCH 1 - PROGRESS: at 34.08% examples, 161986 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:07:48,461 EPOCH 1 - PROGRESS: at 37.70% examples, 153801 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:07:49,512 EPOCH 1 - PROGRESS: at 41.58% examples, 148395 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:07:50,543 EPOCH 1 - PROGRESS: at 44.92% examples, 142751 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:07:51,564 EPOCH 1 - PROGRESS: at 47.70% examples, 136754 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:07:52,591 EPOCH 1 - PROGRESS: at 50.19% examples, 131064 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:07:53,645 EPOCH 1 - PROGRESS: at 52.99% examples, 126669 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:07:54,690 EPOCH 1 - PROGRESS: at 56.59% examples, 124928 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:07:55,749 EPOCH 1 - PROGRESS: at 59.95% examples, 122705 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:07:56,804 EPOCH 1 - PROGRESS: at 62.78% examples, 119755 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:07:57,869 EPOCH 1 - PROGRESS: at 65.86% examples, 117584 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:07:58,890 EPOCH 1 - PROGRESS: at 69.57% examples, 116906 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:07:59,948 EPOCH 1 - PROGRESS: at 72.96% examples, 115633 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:00,969 EPOCH 1 - PROGRESS: at 76.64% examples, 115132 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:01,976 EPOCH 1 - PROGRESS: at 80.62% examples, 115164 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:03,033 EPOCH 1 - PROGRESS: at 84.33% examples, 114528 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:04,039 EPOCH 1 - PROGRESS: at 88.02% examples, 114209 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:05,082 EPOCH 1 - PROGRESS: at 92.28% examples, 114448 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:06,142 EPOCH 1 - PROGRESS: at 95.71% examples, 113583 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:07,151 EPOCH 1 - PROGRESS: at 99.93% examples, 113965 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:07,166 EPOCH 1: training on 3565072 raw words (2969033 effective words) took 26.0s, 113975 effective w
+ords/s
+2026-10-08 16:08:08,243 EPOCH 2 - PROGRESS: at 3.26% examples, 92686 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:09,301 EPOCH 2 - PROGRESS: at 6.56% examples, 93155 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:10,314 EPOCH 2 - PROGRESS: at 10.72% examples, 102674 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:11,371 EPOCH 2 - PROGRESS: at 14.90% examples, 106464 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:12,406 EPOCH 2 - PROGRESS: at 18.50% examples, 106013 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:13,448 EPOCH 2 - PROGRESS: at 22.41% examples, 106936 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:14,531 EPOCH 2 - PROGRESS: at 26.56% examples, 108174 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:15,590 EPOCH 2 - PROGRESS: at 30.18% examples, 107431 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:16,599 EPOCH 2 - PROGRESS: at 34.08% examples, 108267 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:17,633 EPOCH 2 - PROGRESS: at 37.70% examples, 107901 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:18,703 EPOCH 2 - PROGRESS: at 41.31% examples, 107241 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:19,766 EPOCH 2 - PROGRESS: at 45.20% examples, 107422 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:20,813 EPOCH 2 - PROGRESS: at 49.37% examples, 108317 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:21,853 EPOCH 2 - PROGRESS: at 53.26% examples, 108582 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:22,898 EPOCH 2 - PROGRESS: at 57.69% examples, 109835 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:23,938 EPOCH 2 - PROGRESS: at 62.20% examples, 110964 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:24,940 EPOCH 2 - PROGRESS: at 66.43% examples, 111699 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:25,955 EPOCH 2 - PROGRESS: at 70.99% examples, 112756 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:26,970 EPOCH 2 - PROGRESS: at 75.52% examples, 113689 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:27,985 EPOCH 2 - PROGRESS: at 79.50% examples, 113750 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:28,989 EPOCH 2 - PROGRESS: at 83.45% examples, 113838 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:30,014 EPOCH 2 - PROGRESS: at 86.89% examples, 113088 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:31,047 EPOCH 2 - PROGRESS: at 90.87% examples, 113073 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:32,070 EPOCH 2 - PROGRESS: at 94.85% examples, 113104 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:33,119 EPOCH 2 - PROGRESS: at 99.36% examples, 113654 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:33,273 EPOCH 2: training on 3565072 raw words (2967935 effective words) took 26.1s, 113694 effective w
+ords/s
+2026-10-08 16:08:34,337 EPOCH 3 - PROGRESS: at 4.33% examples, 125152 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:35,405 EPOCH 3 - PROGRESS: at 8.24% examples, 116742 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:36,460 EPOCH 3 - PROGRESS: at 12.38% examples, 117087 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:37,467 EPOCH 3 - PROGRESS: at 16.28% examples, 116751 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:38,535 EPOCH 3 - PROGRESS: at 20.74% examples, 118317 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:39,591 EPOCH 3 - PROGRESS: at 24.36% examples, 115647 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:40,638 EPOCH 3 - PROGRESS: at 28.80% examples, 117294 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:41,692 EPOCH 3 - PROGRESS: at 32.96% examples, 117435 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:42,751 EPOCH 3 - PROGRESS: at 37.14% examples, 117467 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:43,782 EPOCH 3 - PROGRESS: at 41.31% examples, 117798 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:44,841 EPOCH 3 - PROGRESS: at 45.47% examples, 117789 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:45,844 EPOCH 3 - PROGRESS: at 49.08% examples, 116985 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:46,886 EPOCH 3 - PROGRESS: at 53.26% examples, 117187 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:47,908 EPOCH 3 - PROGRESS: at 57.42% examples, 117567 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:48,958 EPOCH 3 - PROGRESS: at 61.34% examples, 117126 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:50,011 EPOCH 3 - PROGRESS: at 65.86% examples, 117703 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:51,032 EPOCH 3 - PROGRESS: at 69.57% examples, 117013 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:52,113 EPOCH 3 - PROGRESS: at 72.96% examples, 115575 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:53,180 EPOCH 3 - PROGRESS: at 76.64% examples, 114811 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:54,190 EPOCH 3 - PROGRESS: at 80.62% examples, 114843 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:55,237 EPOCH 3 - PROGRESS: at 84.61% examples, 114650 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:56,268 EPOCH 3 - PROGRESS: at 88.88% examples, 114932 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:57,273 EPOCH 3 - PROGRESS: at 92.85% examples, 114978 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:58,321 EPOCH 3 - PROGRESS: at 97.12% examples, 115144 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:08:59,090 EPOCH 3: training on 3565072 raw words (2968886 effective words) took 25.8s, 115012 effective w
+ords/s
+2026-10-08 16:09:00,098 EPOCH 4 - PROGRESS: at 3.80% examples, 115411 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:01,100 EPOCH 4 - PROGRESS: at 8.24% examples, 123706 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:02,121 EPOCH 4 - PROGRESS: at 12.38% examples, 123036 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:03,150 EPOCH 4 - PROGRESS: at 16.56% examples, 122570 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:04,165 EPOCH 4 - PROGRESS: at 20.47% examples, 120987 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:05,212 EPOCH 4 - PROGRESS: at 24.63% examples, 120625 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:06,242 EPOCH 4 - PROGRESS: at 28.80% examples, 120701 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:07,263 EPOCH 4 - PROGRESS: at 32.67% examples, 119879 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:08,311 EPOCH 4 - PROGRESS: at 36.03% examples, 117061 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:09,374 EPOCH 4 - PROGRESS: at 40.47% examples, 117866 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:10,424 EPOCH 4 - PROGRESS: at 44.92% examples, 118659 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:11,434 EPOCH 4 - PROGRESS: at 48.53% examples, 117698 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:12,449 EPOCH 4 - PROGRESS: at 52.70% examples, 118093 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:13,490 EPOCH 4 - PROGRESS: at 57.14% examples, 118837 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:14,540 EPOCH 4 - PROGRESS: at 61.34% examples, 118841 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:15,613 EPOCH 4 - PROGRESS: at 65.29% examples, 118153 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:16,706 EPOCH 4 - PROGRESS: at 69.29% examples, 117423 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:17,722 EPOCH 4 - PROGRESS: at 73.53% examples, 117707 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:18,738 EPOCH 4 - PROGRESS: at 77.48% examples, 117556 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:19,803 EPOCH 4 - PROGRESS: at 81.73% examples, 117516 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:20,807 EPOCH 4 - PROGRESS: at 85.47% examples, 117055 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:21,874 EPOCH 4 - PROGRESS: at 90.01% examples, 117405 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:22,912 EPOCH 4 - PROGRESS: at 93.99% examples, 117180 words/s, in_qsize 2, out_qsize 0
+2026-10-08 16:09:23,988 EPOCH 4 - PROGRESS: at 97.39% examples, 116114 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:24,709 EPOCH 4: training on 3565072 raw words (2967526 effective words) took 25.6s, 115846 effective w
+ords/s
+2026-10-08 16:09:25,780 EPOCH 5 - PROGRESS: at 3.80% examples, 108664 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:26,831 EPOCH 5 - PROGRESS: at 7.68% examples, 109404 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:27,882 EPOCH 5 - PROGRESS: at 11.83% examples, 112326 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:28,884 EPOCH 5 - PROGRESS: at 16.28% examples, 117202 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:29,928 EPOCH 5 - PROGRESS: at 20.74% examples, 119155 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:30,984 EPOCH 5 - PROGRESS: at 24.63% examples, 117674 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:32,013 EPOCH 5 - PROGRESS: at 28.80% examples, 118197 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:33,061 EPOCH 5 - PROGRESS: at 33.24% examples, 119271 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:34,076 EPOCH 5 - PROGRESS: at 37.99% examples, 121433 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:35,082 EPOCH 5 - PROGRESS: at 42.43% examples, 122458 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:36,147 EPOCH 5 - PROGRESS: at 46.31% examples, 121228 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:37,187 EPOCH 5 - PROGRESS: at 51.03% examples, 122463 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:38,205 EPOCH 5 - PROGRESS: at 54.37% examples, 120628 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:39,224 EPOCH 5 - PROGRESS: at 58.53% examples, 120755 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:40,257 EPOCH 5 - PROGRESS: at 63.05% examples, 121308 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:41,273 EPOCH 5 - PROGRESS: at 67.57% examples, 121863 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:42,327 EPOCH 5 - PROGRESS: at 72.40% examples, 122591 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:43,376 EPOCH 5 - PROGRESS: at 76.92% examples, 122829 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:44,400 EPOCH 5 - PROGRESS: at 80.89% examples, 122357 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:45,414 EPOCH 5 - PROGRESS: at 85.19% examples, 122373 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:46,434 EPOCH 5 - PROGRESS: at 90.30% examples, 123503 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:47,480 EPOCH 5 - PROGRESS: at 95.71% examples, 124761 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:48,494 EPOCH 5 - PROGRESS: at 99.93% examples, 124685 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:48,509 EPOCH 5: training on 3565072 raw words (2967402 effective words) took 23.8s, 124688 effective w
+ords/s
+2026-10-08 16:09:49,529 EPOCH 6 - PROGRESS: at 4.61% examples, 138586 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:50,572 EPOCH 6 - PROGRESS: at 9.33% examples, 136954 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:51,622 EPOCH 6 - PROGRESS: at 13.78% examples, 133345 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:52,657 EPOCH 6 - PROGRESS: at 18.50% examples, 134186 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:53,692 EPOCH 6 - PROGRESS: at 23.25% examples, 134606 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:54,726 EPOCH 6 - PROGRESS: at 27.40% examples, 132292 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:55,749 EPOCH 6 - PROGRESS: at 32.11% examples, 133184 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:56,780 EPOCH 6 - PROGRESS: at 36.86% examples, 133641 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:57,827 EPOCH 6 - PROGRESS: at 41.58% examples, 133755 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:58,851 EPOCH 6 - PROGRESS: at 46.86% examples, 135799 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:09:59,856 EPOCH 6 - PROGRESS: at 51.31% examples, 135520 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:00,864 EPOCH 6 - PROGRESS: at 55.76% examples, 135239 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:01,880 EPOCH 6 - PROGRESS: at 60.78% examples, 136182 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:02,889 EPOCH 6 - PROGRESS: at 65.29% examples, 135863 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:03,911 EPOCH 6 - PROGRESS: at 69.84% examples, 135479 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:04,974 EPOCH 6 - PROGRESS: at 74.38% examples, 134813 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:06,029 EPOCH 6 - PROGRESS: at 79.50% examples, 135241 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:07,047 EPOCH 6 - PROGRESS: at 84.03% examples, 134971 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:08,055 EPOCH 6 - PROGRESS: at 88.02% examples, 133955 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:09,078 EPOCH 6 - PROGRESS: at 92.85% examples, 134168 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:10,089 EPOCH 6 - PROGRESS: at 97.39% examples, 134035 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:10,600 EPOCH 6: training on 3565072 raw words (2969091 effective words) took 22.1s, 134419 effective w
+ords/s
+2026-10-08 16:10:11,648 EPOCH 7 - PROGRESS: at 4.61% examples, 134942 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:12,707 EPOCH 7 - PROGRESS: at 9.06% examples, 129999 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:13,747 EPOCH 7 - PROGRESS: at 14.05% examples, 134452 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:14,785 EPOCH 7 - PROGRESS: at 18.79% examples, 134895 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:15,831 EPOCH 7 - PROGRESS: at 23.52% examples, 134939 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:16,833 EPOCH 7 - PROGRESS: at 28.24% examples, 135961 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:17,857 EPOCH 7 - PROGRESS: at 32.67% examples, 135104 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:18,877 EPOCH 7 - PROGRESS: at 36.58% examples, 132512 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:19,899 EPOCH 7 - PROGRESS: at 40.47% examples, 130425 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:20,924 EPOCH 7 - PROGRESS: at 44.64% examples, 129566 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:21,937 EPOCH 7 - PROGRESS: at 49.64% examples, 131210 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:22,985 EPOCH 7 - PROGRESS: at 54.91% examples, 132894 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:24,020 EPOCH 7 - PROGRESS: at 60.23% examples, 134441 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:25,028 EPOCH 7 - PROGRESS: at 65.01% examples, 134846 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:26,066 EPOCH 7 - PROGRESS: at 70.41% examples, 135991 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:27,099 EPOCH 7 - PROGRESS: at 75.80% examples, 137056 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:28,114 EPOCH 7 - PROGRESS: at 80.62% examples, 137186 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:29,160 EPOCH 7 - PROGRESS: at 85.76% examples, 137484 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:30,194 EPOCH 7 - PROGRESS: at 91.70% examples, 139158 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:31,203 EPOCH 7 - PROGRESS: at 97.12% examples, 139995 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:31,752 EPOCH 7: training on 3565072 raw words (2969255 effective words) took 21.2s, 140389 effective w
+ords/s
+2026-10-08 16:10:32,777 EPOCH 8 - PROGRESS: at 5.45% examples, 162086 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:33,821 EPOCH 8 - PROGRESS: at 11.27% examples, 164372 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:34,844 EPOCH 8 - PROGRESS: at 16.28% examples, 158302 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:35,853 EPOCH 8 - PROGRESS: at 22.13% examples, 161829 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:36,868 EPOCH 8 - PROGRESS: at 27.68% examples, 162277 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:37,878 EPOCH 8 - PROGRESS: at 33.24% examples, 162688 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:38,885 EPOCH 8 - PROGRESS: at 38.81% examples, 163045 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:39,922 EPOCH 8 - PROGRESS: at 44.92% examples, 164698 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:40,966 EPOCH 8 - PROGRESS: at 49.92% examples, 162292 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:41,987 EPOCH 8 - PROGRESS: at 55.76% examples, 163186 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:43,033 EPOCH 8 - PROGRESS: at 61.91% examples, 164304 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:44,078 EPOCH 8 - PROGRESS: at 67.28% examples, 163154 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:45,101 EPOCH 8 - PROGRESS: at 73.53% examples, 164350 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:46,113 EPOCH 8 - PROGRESS: at 78.63% examples, 163212 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:47,122 EPOCH 8 - PROGRESS: at 83.75% examples, 162211 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:48,149 EPOCH 8 - PROGRESS: at 89.46% examples, 162177 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:49,175 EPOCH 8 - PROGRESS: at 95.42% examples, 162635 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:50,020 EPOCH 8: training on 3565072 raw words (2968291 effective words) took 18.3s, 162498 effective w
+ords/s
+2026-10-08 16:10:51,040 EPOCH 9 - PROGRESS: at 5.45% examples, 162833 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:52,040 EPOCH 9 - PROGRESS: at 11.00% examples, 164159 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:53,044 EPOCH 9 - PROGRESS: at 15.71% examples, 156269 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:54,079 EPOCH 9 - PROGRESS: at 21.01% examples, 155405 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:55,106 EPOCH 9 - PROGRESS: at 25.47% examples, 150193 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:56,152 EPOCH 9 - PROGRESS: at 29.63% examples, 144972 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:57,187 EPOCH 9 - PROGRESS: at 33.81% examples, 141414 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:58,234 EPOCH 9 - PROGRESS: at 37.70% examples, 137561 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:10:59,264 EPOCH 9 - PROGRESS: at 41.58% examples, 134796 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:11:00,311 EPOCH 9 - PROGRESS: at 46.03% examples, 134008 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:11:01,324 EPOCH 9 - PROGRESS: at 50.76% examples, 134510 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:11:02,357 EPOCH 9 - PROGRESS: at 56.04% examples, 136102 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:11:03,384 EPOCH 9 - PROGRESS: at 61.34% examples, 137493 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:11:04,423 EPOCH 9 - PROGRESS: at 66.71% examples, 138520 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:11:05,445 EPOCH 9 - PROGRESS: at 72.11% examples, 139582 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:11:06,485 EPOCH 9 - PROGRESS: at 77.77% examples, 140874 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:11:07,541 EPOCH 9 - PROGRESS: at 83.75% examples, 142328 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:11:08,574 EPOCH 9 - PROGRESS: at 89.17% examples, 142914 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:11:09,618 EPOCH 9 - PROGRESS: at 94.56% examples, 143367 words/s, in_qsize 1, out_qsize 0
+2026-10-08 16:11:10,576 EPOCH 9: training on 3565072 raw words (2969251 effective words) took 20.6s, 144467 effective w
+ords/s
+2026-10-08 16:11:10,576 Word2Vec lifecycle event {'msg': 'training on 35650720 raw words (29683561 effective words) too
+k 224.0s, 132521 effective words/s', 'datetime': '2026-10-08T16:11:10.576362', 'gensim': '4.3.3', 'python': '3.12.10 (t
+ags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]', 'platform': 'Windows-11-10.0.26200-SP0', 'ev
+ent': 'train'}
+2026-10-08 16:11:10,576 Word2Vec lifecycle event {'params': 'Word2Vec<vocab=38140, vector_size=100, alpha=0.025>', 'dat
+etime': '2026-10-08T16:11:10.576362', 'gensim': '4.3.3', 'python': '3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:
+36) [MSC v.1943 64 bit (AMD64)]', 'platform': 'Windows-11-10.0.26200-SP0', 'event': 'created'}
+2026-10-08 16:11:10,576 Word2Vec lifecycle event {'fname_or_handle': 'C:\\Users\\姚智博\\OneDrive\\桌面\\自然语言处理作业1\\models\\
+w2v_ag.model', 'separately': 'None', 'sep_limit': 10485760, 'ignore': frozenset(), 'datetime': '2026-10-08T16:11:10.576
+362', 'gensim': '4.3.3', 'python': '3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]'
+, 'platform': 'Windows-11-10.0.26200-SP0', 'event': 'saving'}
+2026-10-08 16:11:10,576 not storing attribute cum_table
+2026-10-08 16:11:10,617 saved C:\Users\姚智博\OneDrive\桌面\自然语言处理作业1\models\w2v_ag.model
+{'C': 0.01, 'class_weight': None, 'validation_accuracy': 0.9739583333333334, 'validation_macro_f1': 0.9446579340349665, 'n_iter': [36]}
+{'C': 0.1, 'class_weight': None, 'validation_accuracy': 0.9748263888888888, 'validation_macro_f1': 0.9458810920542545, 'n_iter': [57]}
+{'C': 1.0, 'class_weight': None, 'validation_accuracy': 0.9756944444444444, 'validation_macro_f1': 0.9479742793046183, 'n_iter': [78]}
+{'C': 10.0, 'class_weight': None, 'validation_accuracy': 0.9765625, 'validation_macro_f1': 0.9508102341454413, 'n_iter': [111]}
+{'C': 0.01, 'class_weight': 'balanced', 'validation_accuracy': 0.96875, 'validation_macro_f1': 0.9391241045794892, 'n_iter': [46]}
+{'C': 0.1, 'class_weight': 'balanced', 'validation_accuracy': 0.9722222222222222, 'validation_macro_f1': 0.9426767216988358, 'n_iter': [92]}
+{'C': 1.0, 'class_weight': 'balanced', 'validation_accuracy': 0.9730902777777778, 'validation_macro_f1': 0.9446083284260182, 'n_iter': [143]}
+{'C': 10.0, 'class_weight': 'balanced', 'validation_accuracy': 0.9739583333333334, 'validation_macro_f1': 0.9466168830279263, 'n_iter': [215]}
+FINISHED w2v_ag: 0.982639, 0.959650

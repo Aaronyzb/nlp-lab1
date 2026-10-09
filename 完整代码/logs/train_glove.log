@@ -1,0 +1,9 @@
+{'C': 0.01, 'class_weight': None, 'validation_accuracy': 0.9774305555555556, 'validation_macro_f1': 0.952126257881034, 'n_iter': [32]}
+{'C': 0.1, 'class_weight': None, 'validation_accuracy': 0.9809027777777778, 'validation_macro_f1': 0.9594012464543105, 'n_iter': [54]}
+{'C': 1.0, 'class_weight': None, 'validation_accuracy': 0.9809027777777778, 'validation_macro_f1': 0.9603044140112583, 'n_iter': [77]}
+{'C': 10.0, 'class_weight': None, 'validation_accuracy': 0.9782986111111112, 'validation_macro_f1': 0.9557873716269981, 'n_iter': [93]}
+{'C': 0.01, 'class_weight': 'balanced', 'validation_accuracy': 0.9730902777777778, 'validation_macro_f1': 0.9473671771601437, 'n_iter': [46]}
+{'C': 0.1, 'class_weight': 'balanced', 'validation_accuracy': 0.9800347222222222, 'validation_macro_f1': 0.9582781044280044, 'n_iter': [85]}
+{'C': 1.0, 'class_weight': 'balanced', 'validation_accuracy': 0.9800347222222222, 'validation_macro_f1': 0.9582781044280044, 'n_iter': [115]}
+{'C': 10.0, 'class_weight': 'balanced', 'validation_accuracy': 0.9791666666666666, 'validation_macro_f1': 0.9570356857795245, 'n_iter': [188]}
+FINISHED glove: 0.986111, 0.966792

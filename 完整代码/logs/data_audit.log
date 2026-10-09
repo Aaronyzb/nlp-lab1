@@ -1,0 +1,56 @@
+{
+  "seed": 42,
+  "split_algorithm": "numpy default_rng(42) permutation; floor(0.8N), floor(0.9N)",
+  "labels": [
+    "business",
+    "politics",
+    "sports"
+  ],
+  "nyt_rows": 11519,
+  "ag_rows": 90000,
+  "nyt_duplicate_rows": 72,
+  "ag_duplicate_rows": 29,
+  "nyt_conflicting_label_texts": 0,
+  "split": {
+    "train": {
+      "n": 9215,
+      "class_counts": {
+        "sports": 6951,
+        "business": 1137,
+        "politics": 1127
+      }
+    },
+    "validation": {
+      "n": 1152,
+      "class_counts": {
+        "sports": 825,
+        "politics": 172,
+        "business": 155
+      }
+    },
+    "test": {
+      "n": 1152,
+      "class_counts": {
+        "sports": 863,
+        "politics": 152,
+        "business": 137
+      }
+    }
+  },
+  "exact_duplicate_unique_text_overlap": {
+    "train_validation": 12,
+    "train_test": 15,
+    "validation_test": 1
+  },
+  "ag_nyt_exact_text_overlap": 0,
+  "token_lengths": {
+    "mean": 656.143154787742,
+    "median": 690.0,
+    "p90": 970.0,
+    "max": 5259
+  },
+  "data_sha256": {
+    "ag.csv": "06fa7de72a2f1cb41513c35260964518d029ff63ae631a807d3b189fbf246c4b",
+    "nyt.csv": "de12ebe7f41316b798896bf975da840e2998f82393328d375fe5456a14e9eb2d"
+  }
+}

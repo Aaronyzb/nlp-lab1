@@ -1,0 +1,31 @@
+{
+  "completed_experiments": [
+    "bow_binary",
+    "bow_frequency",
+    "glove",
+    "w2v_ag",
+    "w2v_nyt",
+    "bert"
+  ],
+  "tests_passed": 7,
+  "test_samples_per_model": 1152,
+  "data_files_unchanged": true,
+  "all_pdf_pages_visually_reviewed": true,
+  "pdf_pages": 20,
+  "pdf_layout_overflow_detected": false,
+  "pdf_sha256": "adb92553ff6f6f73e265b48b9822e51b55161a5e78e74ff7b013f59a7ab5e5b5",
+  "bert_epochs_completed": 3,
+  "bert_max_length": 64,
+  "saved_model_inference_checked": [
+    "bow_binary",
+    "bow_frequency",
+    "bert"
+  ],
+  "report_format": "illustrated report with numerical charts and actual log excerpts",
+  "reviewed_at_utc": "2026-10-09T05:09:14.734787+00:00",
+  "numerical_charts": 9,
+  "log_excerpt_figures": 2,
+  "markdown_captions_checked": true,
+  "markdown_references_checked": true,
+  "report_revision": "Simplified wording, explicit figure captions, source references and evidence-based conclusion"
+}

@@ -1,0 +1,131 @@
+{
+  "baseline": {
+    "accuracy": 0.7491319444444444,
+    "macro_f1": 0.28552522746071135,
+    "classification_report": {
+      "business": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 137.0
+      },
+      "politics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 152.0
+      },
+      "sports": {
+        "precision": 0.7491319444444444,
+        "recall": 1.0,
+        "f1-score": 0.856575682382134,
+        "support": 863.0
+      },
+      "accuracy": 0.7491319444444444,
+      "macro avg": {
+        "precision": 0.24971064814814814,
+        "recall": 0.3333333333333333,
+        "f1-score": 0.28552522746071135,
+        "support": 1152.0
+      },
+      "weighted avg": {
+        "precision": 0.5611986701871142,
+        "recall": 0.7491319444444444,
+        "f1-score": 0.6416882065067548,
+        "support": 1152.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        137
+      ],
+      [
+        0,
+        0,
+        152
+      ],
+      [
+        0,
+        0,
+        863
+      ]
+    ]
+  },
+  "confidence_intervals": {
+    "bow_binary": {
+      "accuracy_95ci": [
+        0.9835069444444444,
+        0.9947916666666666
+      ],
+      "macro_f1_95ci": [
+        0.9638453708733498,
+        0.9899099681966903
+      ]
+    },
+    "bow_frequency": {
+      "accuracy_95ci": [
+        0.9835069444444444,
+        0.9947916666666666
+      ],
+      "macro_f1_95ci": [
+        0.9599812986090753,
+        0.9889179973836286
+      ]
+    },
+    "glove": {
+      "accuracy_95ci": [
+        0.9800347222222222,
+        0.9921875
+      ],
+      "macro_f1_95ci": [
+        0.9502478555527394,
+        0.9814818371963974
+      ]
+    },
+    "w2v_ag": {
+      "accuracy_95ci": [
+        0.9748263888888888,
+        0.9895833333333334
+      ],
+      "macro_f1_95ci": [
+        0.9419943338351884,
+        0.9761350510078438
+      ]
+    },
+    "w2v_nyt": {
+      "accuracy_95ci": [
+        0.9817708333333334,
+        0.9939236111111112
+      ],
+      "macro_f1_95ci": [
+        0.9521380839819116,
+        0.9838027182289477
+      ]
+    },
+    "bert": {
+      "accuracy_95ci": [
+        0.9756944444444444,
+        0.9904513888888888
+      ],
+      "macro_f1_95ci": [
+        0.9487087556311988,
+        0.9804332949344945
+      ]
+    }
+  },
+  "paired_bert_binary": {
+    "accuracy_difference_bert_minus_binary_95ci": [
+      -0.01388888888888884,
+      0.0017361111111110494
+    ],
+    "macro_f1_difference_bert_minus_binary_95ci": [
+      -0.02801246315332495,
+      0.0016074354180801824
+    ]
+  },
+  "bootstrap_replicates": 2000,
+  "bootstrap_seed": 123,
+  "method": "stratified paired bootstrap over test rows, percentile CI; conditional on fixed test class counts"
+}

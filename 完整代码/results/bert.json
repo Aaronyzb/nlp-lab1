@@ -1,0 +1,181 @@
+{
+  "name": "bert",
+  "test": {
+    "accuracy": 0.9835069444444444,
+    "macro_f1": 0.9650227942628108,
+    "classification_report": {
+      "business": {
+        "precision": 0.9555555555555556,
+        "recall": 0.9416058394160584,
+        "f1-score": 0.9485294117647058,
+        "support": 137.0
+      },
+      "politics": {
+        "precision": 0.9308176100628931,
+        "recall": 0.9736842105263158,
+        "f1-score": 0.9517684887459807,
+        "support": 152.0
+      },
+      "sports": {
+        "precision": 0.9976689976689976,
+        "recall": 0.9918887601390498,
+        "f1-score": 0.9947704822777454,
+        "support": 863.0
+      },
+      "accuracy": 0.9835069444444444,
+      "macro avg": {
+        "precision": 0.9613473877624821,
+        "recall": 0.9690596033604747,
+        "f1-score": 0.9650227942628108,
+        "support": 1152.0
+      },
+      "weighted avg": {
+        "precision": 0.9838400458585207,
+        "recall": 0.9835069444444444,
+        "f1-score": 0.9835974530441389,
+        "support": 1152.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        129,
+        6,
+        2
+      ],
+      [
+        4,
+        148,
+        0
+      ],
+      [
+        2,
+        5,
+        856
+      ]
+    ]
+  },
+  "test_loss": 0.060804332296053566,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.2847377270904819,
+      "validation_loss": 0.09078027059634526,
+      "validation_accuracy": 0.96875,
+      "validation_macro_f1": 0.9394015977160023,
+      "epoch_seconds": 52.325860699999794,
+      "samples_seen": 9215
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.049206002029917255,
+      "validation_loss": 0.08138241701655918,
+      "validation_accuracy": 0.9756944444444444,
+      "validation_macro_f1": 0.9536181260939341,
+      "epoch_seconds": 54.35521030000018,
+      "samples_seen": 9215
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.018092911670664635,
+      "validation_loss": 0.08731084937850635,
+      "validation_accuracy": 0.9739583333333334,
+      "validation_macro_f1": 0.9508363891830901,
+      "epoch_seconds": 51.98983609999959,
+      "samples_seen": 9215
+    }
+  ],
+  "selected_epoch": 2,
+  "selection": "highest validation macro-F1, then accuracy",
+  "elapsed_seconds": 161.87391639999987,
+  "metadata": {
+    "source": {
+      "model": "google-bert/bert-base-uncased",
+      "revision": "86b5e0934494bd15c9632b12f734a8a67f723594"
+    },
+    "max_length": 64,
+    "epochs": 3,
+    "batch_size": 32,
+    "learning_rate": 2e-05,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "clip_norm": 1.0,
+    "seed": 42,
+    "precision": "float16 AMP",
+    "device": "cuda",
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "torch_version": "2.10.0+cu126",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "trainable_parameters": 109484547,
+    "truncation": {
+      "train": {
+        "fraction_truncated": 0.9996744438415627,
+        "mean_full_wordpiece_length": 835.6376559956592
+      },
+      "validation": {
+        "fraction_truncated": 0.9991319444444444,
+        "mean_full_wordpiece_length": 830.3897569444445
+      },
+      "test": {
+        "fraction_truncated": 0.9991319444444444,
+        "mean_full_wordpiece_length": 834.6857638888889
+      }
+    }
+  },
+  "duplicate_sensitivity": {
+    "test_without_exact_train_duplicates_n": 1137,
+    "test_without_exact_train_duplicates": {
+      "accuracy": 0.9832893579595426,
+      "macro_f1": 0.964429953623331,
+      "classification_report": {
+        "business": {
+          "precision": 0.9548872180451128,
+          "recall": 0.9407407407407408,
+          "f1-score": 0.9477611940298507,
+          "support": 135.0
+        },
+        "politics": {
+          "precision": 0.9294871794871795,
+          "recall": 0.9731543624161074,
+          "f1-score": 0.9508196721311475,
+          "support": 149.0
+        },
+        "sports": {
+          "precision": 0.9976415094339622,
+          "recall": 0.9917936694021102,
+          "f1-score": 0.9947089947089947,
+          "support": 853.0
+        },
+        "accuracy": 0.9832893579595426,
+        "macro avg": {
+          "precision": 0.9606719689887515,
+          "recall": 0.9685629241863194,
+          "f1-score": 0.964429953623331,
+          "support": 1137.0
+        },
+        "weighted avg": {
+          "precision": 0.9836337482206241,
+          "recall": 0.9832893579595426,
+          "f1-score": 0.9833831704734768,
+          "support": 1137.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          127,
+          6,
+          2
+        ],
+        [
+          4,
+          145,
+          0
+        ],
+        [
+          2,
+          5,
+          846
+        ]
+      ]
+    }
+  }
+}
